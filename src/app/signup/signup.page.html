@@ -1,0 +1,42 @@
+
+
+<ion-content>
+  <div class="background-pic">
+    <div class="background-filter">
+      <div class="shape">
+        <img src="../../assets/shape.svg" alt="">
+        <ion-card>
+          <ion-card-title>
+          SignUp!
+          </ion-card-title>
+          <ion-card-subtitle>
+           Create Your <strong>Account</strong> Here
+          </ion-card-subtitle>
+          <ion-card-content>
+            <ion-item>
+              <ion-input placeholder="Full name">
+              </ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input placeholder="Email address">
+              </ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input placeholder="Phone no">
+              </ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input placeholder="Password">
+              </ion-input>
+            </ion-item>
+            
+            <div class="button">
+              <ion-button (click)="SignUpUser()">Sign up</ion-button><br>
+              <span>alredy have an account ? <a (click)="NavigateToSignInPage()">Sign In</a></span>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </div>
+  </div>
+</ion-content>
